@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 首页
+  p #{gitJson}
+  
+  a.btn(href="/login") 注册
+  //- a.btn(href="/register") 注册
+  
+  ul
+       each item in result
+          li 用户名：#{item.name} 密码：#{item.age}

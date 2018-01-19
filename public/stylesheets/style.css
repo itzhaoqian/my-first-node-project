@@ -1,0 +1,10 @@
+body {
+  padding: 50px;
+  font: 14px "microsoft yahei", Helvetica, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.btn{display:inline-block;width:100px;height:30px;background:#e3e3e3;margin-right:10px;text-align:center;line-height:30px;}
+ul{list-style:none;}
